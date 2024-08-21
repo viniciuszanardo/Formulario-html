@@ -1,0 +1,105 @@
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <style>
+        body {
+            background-image: url(biblioteca\ branca.jpg);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        form {
+            width: 400px;
+            border: 2px solid;
+            border-radius: 5px;
+            padding: 20px;
+            margin: auto;
+
+        }
+
+        label {
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        input {
+            width: 200px;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 2px solid;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: white ;
+            color: black;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1> BIBLIOTECA </h1>
+
+    <form action="processar imprestimo.php">
+        <label for="nome" class="classe">Nome do Usuário:</label>
+        <br>
+        <input type="text" id="nome">
+<br>
+<br>
+        <label for="matricula" class="classe">Matrícula:</label>
+        <br>
+        <input type="text" id="matricula">
+<br>
+<br>
+    <label for="cpf" class="classe">CPF:</label>
+    <br>
+    <input type="text" id="cpf">
+<br>
+<br>    
+    <label for="isbn" class="classe">ISBN do livro:</label>
+    <br>
+    <input type="text" id="isbn">
+<br>
+    <br>
+    <label for="titulo" class="classe">Título do Livro:</label>
+    <br>
+        <input type="text" id="titulo">
+    <br>
+    <br>
+    <label for="autor" class="classe">Autor do Livro:</label>
+    <br>
+        <input type="text" id="livro">
+    <br>
+    <br>
+     <label for="data" class="classe">Data de Empréstimo:
+        <br>
+       <input type="date">
+    <br>
+    <br>
+      <label for="data de devo" class="classe">Data de Devolução:
+        <br>
+      <input type="date">
+    <br>
+    <br>
+      <label for="data de emp" class="classe">Data de Empréstimo:</label>
+      <br>
+
+      <input type="text" id="data de emp">
+    <br>
+    <br>
+    <br>
+    <input type="button" value="Salvar" class="botao">
+    <input type="resert" value="Limpar" class="botao">
+    <input type="submit" value="Enviar" class="botao">
+    
+    </form>
+    
+</body>
+</html>
